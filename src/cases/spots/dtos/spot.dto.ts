@@ -1,5 +1,5 @@
 export interface SpotDTO {
-  id: number;
+  id: string;
   name: string;
   active: boolean;
 }
