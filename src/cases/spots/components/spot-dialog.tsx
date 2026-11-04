@@ -7,7 +7,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog"
 import { MapPin } from "lucide-react"
-import { useSpots } from "../hooks/use-hook"
+import { useSpots } from "../hooks/use-spot"
 import type { SpotDTO } from "../dtos/spot.dto"
 import { cn } from "@/lib/utils"
 
