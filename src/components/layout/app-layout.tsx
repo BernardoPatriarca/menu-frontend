@@ -7,12 +7,12 @@ export function AppLayout() {
         <>
             <Header />
 
-            <div className="mx-auto flex w-full max-w-5xl gap-6 py-8 px-6">
-                <aside className="flex w-full flex-col">
+            <div className="mx-auto flex w-full max-w-5xl flex-col gap-6 py-8 px-6 md:flex-row">
+                <aside className="flex w-full flex-col md:w-72 md:shrink-0">
                     <CategoryNav />
                 </aside>
 
-                <main className="flex-1 border-t border-border pt-6 pb-6">
+                <main className="min-w-0 flex-1 border-t border-border pt-6 pb-6">
                     <Outlet />
                 </main>
             </div>
